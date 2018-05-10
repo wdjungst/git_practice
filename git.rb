@@ -1,5 +1,5 @@
 module Git
-  def self.put_git(cmd)
+  def self.git_cmd(cmd)
     puts `git #{cmd} -h`
   end
 
