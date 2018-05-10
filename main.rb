@@ -14,7 +14,7 @@ class Main
     case choice
       when 1
         puts 'Enter a git command'.colorize(:green)
-        Git.puts_git(gets.strip)
+        Git.put_git(gets.strip)
         menu
       when 2
         Git.config
